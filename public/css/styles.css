@@ -135,7 +135,7 @@ nav.navbar {
     background: rgba(0, 0, 0, 0.7); }
 
 section.hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/peopleHero.png") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/discernstory2.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -171,6 +171,39 @@ section.hero {
       height: 45px;
       float: right;
       margin-right: -2em; }
+
+section.story {
+  width: 100%;
+  min-height: 30em;
+  background-color: white;
+  color: #626363;
+  padding-bottom: 5em; }
+  section.story div.yearContainer {
+    width: 80%;
+    margin: 0 auto; }
+    section.story div.yearContainer .firstHeader {
+      padding-top: 45px; }
+    section.story div.yearContainer h1 {
+      margin: 0;
+      text-align: center;
+      padding: 45px 5px 0px 0px;
+      font-family: "gothamBook"; }
+    section.story div.yearContainer h2 {
+      font-family: "gothamMedium";
+      font-size: 2em; }
+    section.story div.yearContainer p {
+      font-family: "gothamBook";
+      font-size: 1.25em; }
+    section.story div.yearContainer div.row {
+      margin: 0; }
+      section.story div.yearContainer div.row .yearImage {
+        width: 100px;
+        height: 100px;
+        background-color: #3F3F3F;
+        margin: 45px auto; }
+  section.story div.col-sm-3,
+  section.story div.col-sm-9 {
+    padding: 0; }
 
 footer {
   background-color: #A8A8A8;
@@ -293,6 +326,25 @@ footer {
   nav.navbar div.navbar-collapse {
     margin-top: -2.5em;
     background-color: transparent; }
+  section.story {
+    width: 100%;
+    min-height: 30em;
+    background-color: white;
+    color: #626363;
+    padding-bottom: 5em; }
+    section.story div.yearContainer {
+      width: 80%;
+      margin: 0 auto; }
+      section.story div.yearContainer h1 {
+        text-align: left;
+        padding: 15px 5px 0px 0px; }
+      section.story div.yearContainer h2 {
+        padding-top: 1em; }
+      section.story div.yearContainer p {
+        font-family: "gothamBook";
+        font-size: 1.25em; }
+      section.story div.yearContainer div.row .yearImage {
+        margin: 45px 0px; }
   footer .footerLogoContainer {
     margin: 0;
     margin-left: 6em;
@@ -319,7 +371,26 @@ footer {
 
 @media only screen and (min-width: 1050px) {
   nav.navbar div.collapse ul.nav {
-    margin-right: 75px; } }
+    margin-right: 75px; }
+  section.story {
+    width: 100%;
+    min-height: 30em;
+    background-color: white;
+    color: #626363;
+    padding-bottom: 5em; }
+    section.story div.yearContainer {
+      width: 80%;
+      margin: 0 auto;
+      max-width: 1050px; }
+      section.story div.yearContainer h1 {
+        text-align: left;
+        padding: 15px 5px 0px 0px; }
+      section.story div.yearContainer h2 {
+        padding-top: 1em;
+        font-size: 2.5em; }
+      section.story div.yearContainer p {
+        font-family: "gothamBook";
+        font-size: 2em; } }
 
 @media only screen and (min-width: 1200px) {
   footer div.row a {
