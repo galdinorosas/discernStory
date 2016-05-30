@@ -135,7 +135,7 @@ nav.navbar {
                     position: absolute;
                     margin-left: -9em;
                     margin-left: -15em;
-                    margin-top: 3.1em;
+                    margin-top: 1.6em;
                     input {
                         padding: 0;
                         border: 0;
@@ -168,7 +168,7 @@ nav.navbar {
 }
 
 section.hero {
-    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../images/discernStoryHero.png') no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../images/storyHero.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -448,9 +448,8 @@ footer {
                 font-family: "gothamBook";
                 font-size: 1.25em;
             }
-
-            div.row{
-                .yearImage{
+            div.row {
+                .yearImage {
                     margin: 45px 0px;
                 }
             }
