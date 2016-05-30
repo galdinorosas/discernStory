@@ -135,15 +135,14 @@ nav.navbar {
     background: rgba(0, 0, 0, 0.7); }
 
 section.hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/storyHero.png") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../../images/storyHero.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
   font-family: 'gothamBook';
-  max-height: 350px;
-  background-position-y: -290px; }
+  max-height: 350px; }
   section.hero .heroStatement {
     font-size: 2.75em;
     text-align: center;
